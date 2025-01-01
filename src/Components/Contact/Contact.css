@@ -1,0 +1,142 @@
+
+
+/* Title section */
+.contact-title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.contact-title img {
+  width: 100px;
+  margin-top: 10px;
+  z-index: -1;
+  position: relative;
+  bottom: 50px;
+  left: 70px;
+}
+
+/* Contact section layout */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+/* Left section (Contact details) */
+.contact-left {
+  flex: 1;
+  max-width: 400px;
+  text-align: left;
+}
+
+.h1-1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff0099, #ff9900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p1 {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 15px 0 25px;
+  color: #e6e6e6;
+}
+
+/* Contact details styles */
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-detail img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.contact-detail p {
+  font-size: 1rem;
+  margin: 0;
+  color: #e6e6e6;
+}
+
+/* Form styles */
+form {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+  right: 80px;
+  bottom: 30px;
+  background-color: #1a1a1a;
+  padding: 30px 80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+  font-size: 1rem;
+  color: #ff9900;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #ff9900;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #999;
+}
+
+form textarea {
+  resize: none;
+}
+
+/* Submit button styles */
+.contact-submit {
+  display: inline-block;
+  width: 100%;
+  background: linear-gradient(90deg, #ff0099, #ff9900);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.contact-submit:hover {
+  background: linear-gradient(90deg, #ff9900, #ff0099);
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(255, 153, 0, 0.4);
+}
+
+
